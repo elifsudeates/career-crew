@@ -1,0 +1,14 @@
+crewai==1.12.2
+fastapi==0.135.2
+uvicorn[standard]==0.42.0
+httpx==0.28.1
+httpx-sse==0.4.3
+pdfplumber==0.11.9
+python-multipart==0.0.22
+sse-starlette==3.3.4
+python-dotenv==1.1.1
+openai
+anthropic
+markdown
+python-docx
+weasyprint

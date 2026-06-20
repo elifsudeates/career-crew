@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+venv311/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables (IMPORTANT: keep your secrets safe!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+/.claude
+/career_crew/data
+/career_crew/inputs
+/career_crew/reports

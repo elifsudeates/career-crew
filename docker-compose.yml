@@ -1,0 +1,22 @@
+services:
+  careercrew:
+    build: .
+    image: careercrew:latest
+    container_name: careercrew
+
+    ports:
+      - "8000:8000"
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+
+    volumes:
+      - ./career_crew/reports:/app/reports
+      - ./career_crew/inputs:/app/inputs
+      - ./career_crew/static:/app/static
+      - ./career_crew/data:/app/data
+
+    restart: unless-stopped
